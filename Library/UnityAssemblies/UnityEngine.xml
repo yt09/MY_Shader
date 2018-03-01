@@ -7271,6 +7271,14 @@ For this reason, we also provide the read-only property actualRenderingPath whic
         <para>Returns the default material that can be used for rendering text elements on the Canvas.</para>
       </summary>
     </member>
+    <member name="M:UnityEngine.Canvas.GetETC1SupportedCanvasMaterial">
+      <summary>
+        <para>Gets or generates the ETC1 Material.</para>
+      </summary>
+      <returns>
+        <para>The generated ETC1 Material from the Canvas.</para>
+      </returns>
+    </member>
     <member name="T:UnityEngine.CanvasGroup">
       <summary>
         <para>A Canvas placable element that can be used to modify children Alpha, Raycasting, Enabled state.</para>
@@ -7440,6 +7448,12 @@ See Also: CanvasRenderer.EnableRectClipping, CanvasRenderer.DisableRectClipping.
         <para>Set the alpha of the renderer. Will be multiplied with the UIVertex alpha and the Canvas alpha.</para>
       </summary>
       <param name="alpha">Alpha.</param>
+    </member>
+    <member name="M:UnityEngine.CanvasRenderer.SetAlphaTexture(UnityEngine.Texture)">
+      <summary>
+        <para>The Alpha Texture that will be passed to the Shader under the _AlphaTex property.</para>
+      </summary>
+      <param name="texture">The Texture to be passed.</param>
     </member>
     <member name="M:UnityEngine.CanvasRenderer.SetColor(UnityEngine.Color)">
       <summary>
@@ -9284,6 +9298,14 @@ See Also: CanvasRenderer.SetMaterialCount, CanvasRenderer.SetTexture.</para>
       <param name="kernelIndex">For which kernel the texture is being set. See FindKernel.</param>
       <param name="name">Name of the buffer variable in shader code.</param>
       <param name="texture">Texture to set.</param>
+    </member>
+    <member name="M:UnityEngine.ComputeShader.SetTextureFromGlobal(System.Int32,System.String,System.String)">
+      <summary>
+        <para>Set a texture parameter from a global texture property.</para>
+      </summary>
+      <param name="kernelIndex">For which kernel the texture is being set. See FindKernel.</param>
+      <param name="name">Name of the buffer variable in shader code.</param>
+      <param name="globalTextureName">Global texture property to assign to shader.</param>
     </member>
     <member name="M:UnityEngine.ComputeShader.SetVector(System.String,UnityEngine.Vector4)">
       <summary>
@@ -21101,6 +21123,16 @@ Only usable on Android, Windows Phone or Windows Tablets.</para>
     <member name="F:UnityEngine.iOS.DeviceGeneration.iPhone6SPlus">
       <summary>
         <para>iPhone 6S Plus.</para>
+      </summary>
+    </member>
+    <member name="F:UnityEngine.iOS.DeviceGeneration.iPhone7">
+      <summary>
+        <para>iPhone 7.</para>
+      </summary>
+    </member>
+    <member name="F:UnityEngine.iOS.DeviceGeneration.iPhone7Plus">
+      <summary>
+        <para>iPhone 7 Plus.</para>
       </summary>
     </member>
     <member name="F:UnityEngine.iOS.DeviceGeneration.iPhoneSE1Gen">

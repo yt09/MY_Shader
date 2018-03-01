@@ -9,20 +9,20 @@ public class ShowGoName : MonoBehaviour
     private GameObject InfoTextBG;
     private Text InfoText;
 
-    void Awake()
+    private void Awake()
     {
         InfoTextBG = GameObject.FindGameObjectWithTag("Explain").transform.GetChild(0).gameObject;
         InfoText = InfoTextBG.transform.GetChild(0).GetComponent<Text>();
     }
 
-    void OnMouseOver()
+    private void OnMouseOver()
     {
         InfoTextBG.SetActive(true);
         InfoText.text = GoName;
         InfoTextBG.gameObject.transform.position = Input.mousePosition + new Vector3(0, 40);
     }
 
-    void OnMouseExit()
+    private void OnMouseExit()
     {
         InfoText.text = null;
         InfoTextBG.SetActive(false);
