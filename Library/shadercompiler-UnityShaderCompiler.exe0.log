@@ -1,72 +1,28 @@
 Base path: D:/unity5.3.8/Unity/Editor/Data
 Cmd: getPlatforms
-Cmd: compileSnippet
-  api=4 type=0 insize=1420 outsize=673 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1420 outsize=665 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: preprocess
-  insize=933 outsize=236 ok=1
+  insize=934 outsize=237 ok=1
+Cmd: preprocess
+  insize=3123 outsize=422 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=996 outsize=529 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+  api=4 type=0 insize=3000 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=996 outsize=297 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+  api=4 type=1 insize=3000 outsize=297 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: preprocess
-  insize=2250 outsize=420 ok=1
+  insize=3123 outsize=422 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (43): undeclared identifier 'UnityObjectToClipPos'\nCompiling Vertex program
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
-  api=4 type=0 insize=2128 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=0
-Cmd: preprocess
-  insize=2252 outsize=422 ok=1
+  api=4 type=0 insize=3000 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (43): undeclared identifier 'UnityObjectToClipPos'\nCompiling Vertex program
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
-  api=4 type=0 insize=2128 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=0
+  api=4 type=1 insize=3000 outsize=297 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: preprocess
-  insize=2253 outsize=423 ok=1
+  insize=3121 outsize=422 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2129 outsize=1037 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+  api=4 type=0 insize=2998 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2129 outsize=297 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+  api=4 type=1 insize=2998 outsize=873 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: preprocess
-  insize=2251 outsize=421 ok=1
-Cmd: preprocess
-  insize=2251 outsize=421 ok=1
-Cmd: preprocess
-  insize=2247 outsize=421 ok=1
+  insize=3218 outsize=456 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2125 outsize=981 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+  api=4 type=0 insize=3061 outsize=489 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2125 outsize=297 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
-Cmd: preprocess
-  insize=2251 outsize=421 ok=1
-Cmd: preprocess
-  insize=2253 outsize=421 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2131 outsize=997 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2131 outsize=297 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
-Cmd: preprocess
-  insize=2251 outsize=421 ok=1
-Cmd: preprocess
-  insize=2253 outsize=421 ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at (40): Output value 'vert' is not completely initialized\nCompiling Vertex program
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
-  api=4 type=0 insize=2131 outsize=445 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2131 outsize=297 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
-Cmd: preprocess
-  insize=2253 outsize=421 ok=1
-Cmd: preprocess
-  insize=2251 outsize=421 ok=1
-Cmd: preprocess
-  insize=2253 outsize=421 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (40): Output variable vert contains a system-interpreted value (SV_POSITION) which must be written in every execution path of the shader.  Unconditional initialization may help.\nCompiling Vertex program
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
-  error: 1 plat 4 at (40): Output value 'vert' is not completely initialized\nCompiling Vertex program
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
-  api=4 type=0 insize=2131 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=0
-Cmd: preprocess
-  insize=2251 outsize=421 ok=1
+  api=4 type=1 insize=3061 outsize=873 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
