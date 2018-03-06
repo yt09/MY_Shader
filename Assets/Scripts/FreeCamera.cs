@@ -31,11 +31,11 @@ public class FreeCamera : MonoBehaviour
         float h = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
         float v = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
         float w = Input.GetAxis("Mouse ScrollWheel") * Time.deltaTime * moveSpeed;
-        //if (Input.GetKey(KeyCode.LeftShift))
-        //{
-        //    h = h * moveSpeed;
-        //    v = v * moveSpeed;
-        //}
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            h = h * moveSpeed;
+            v = v * moveSpeed;
+        }
         //pos = transform.position;
         if (Input.GetMouseButton(2))
         {

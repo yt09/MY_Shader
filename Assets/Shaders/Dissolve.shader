@@ -9,7 +9,7 @@
 		_BurnMap("Burn Map", 2D) = "white"{}
 	}
 		SubShader{
-		Tags{ "RenderType" = "Opaque" "Queue" = "Geometry" }
+		Tags{ "RenderType" = "Opaque" "Queue" = "Geometry"  }
 
 		Pass{
 		Tags{ "LightMode" = "ForwardBase" }

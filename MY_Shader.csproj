@@ -76,6 +76,7 @@
     <None Include="Assets\Shaders\GlassRefraction.shader" />
     <None Include="Assets\Shaders\Mirror.shader" />
     <None Include="Assets\Shaders\Projector.shader" />
+    <None Include="Assets\Shaders\SimpleShader.shader" />
     <None Include="Assets\Shaders\Vortex.shader" />
     <None Include="Assets\Shaders\Vortex2.shader" />
     <None Include="Assets\Shaders\WaterWave.shader" />
