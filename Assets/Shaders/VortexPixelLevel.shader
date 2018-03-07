@@ -1,5 +1,5 @@
 ﻿//片段着色器扭曲
-Shader "YT09/Vortex2"
+Shader "YT09/VortexPixelLevel"
 {
 	Properties
 	{

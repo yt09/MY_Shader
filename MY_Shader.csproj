@@ -74,11 +74,18 @@
     <None Include="Assets\Shaders\Billboard_Vertical Single Polygon.shader" />
     <None Include="Assets\Shaders\Dissolve.shader" />
     <None Include="Assets\Shaders\GlassRefraction.shader" />
+    <None Include="Assets\Shaders\LearnShader\DiffusePixelLevel.shader" />
+    <None Include="Assets\Shaders\LearnShader\DiffusePixelLevel_HalfLambert.shader" />
+    <None Include="Assets\Shaders\LearnShader\DiffuseVertexLevel.shader" />
+    <None Include="Assets\Shaders\LearnShader\SimpleShader.shader" />
+    <None Include="Assets\Shaders\LearnShader\SingleTexture.shader" />
+    <None Include="Assets\Shaders\LearnShader\SpecularPixelLevel.shader" />
+    <None Include="Assets\Shaders\LearnShader\SpecularPixelLevel_BlinnPhong.shader" />
+    <None Include="Assets\Shaders\LearnShader\SpecularVertexLevel.shader" />
     <None Include="Assets\Shaders\Mirror.shader" />
     <None Include="Assets\Shaders\Projector.shader" />
-    <None Include="Assets\Shaders\SimpleShader.shader" />
-    <None Include="Assets\Shaders\Vortex.shader" />
-    <None Include="Assets\Shaders\Vortex2.shader" />
+    <None Include="Assets\Shaders\VortexPixelLevel.shader" />
+    <None Include="Assets\Shaders\VortexVertexLevel.shader" />
     <None Include="Assets\Shaders\WaterWave.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

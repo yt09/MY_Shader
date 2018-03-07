@@ -1,4 +1,4 @@
-﻿Shader "YT09/Vortex"
+﻿Shader "YT09/VortexVertexLevel"
 {
 	Properties
 	{
