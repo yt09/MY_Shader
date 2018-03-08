@@ -77,6 +77,10 @@
     <None Include="Assets\Shaders\LearnShader\DiffusePixelLevel.shader" />
     <None Include="Assets\Shaders\LearnShader\DiffusePixelLevel_HalfLambert.shader" />
     <None Include="Assets\Shaders\LearnShader\DiffuseVertexLevel.shader" />
+    <None Include="Assets\Shaders\LearnShader\MaskTexture.shader" />
+    <None Include="Assets\Shaders\LearnShader\NormalMapInTangentSpace.shader" />
+    <None Include="Assets\Shaders\LearnShader\NormalMapWorldSpace.shader" />
+    <None Include="Assets\Shaders\LearnShader\RampTexture.shader" />
     <None Include="Assets\Shaders\LearnShader\SimpleShader.shader" />
     <None Include="Assets\Shaders\LearnShader\SingleTexture.shader" />
     <None Include="Assets\Shaders\LearnShader\SpecularPixelLevel.shader" />

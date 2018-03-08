@@ -33,7 +33,7 @@ Shader "Learn/SingleTexture"
 			{
 				float4 vertex:POSITION;
 				float3 normal:NORMAL;
-				float4 texcoord:TEXCOORD0;
+				float4 texcoord:TEXCOORD0;//顶点纹理坐标 uv 存入变量
 			};
 
 			struct v2f
