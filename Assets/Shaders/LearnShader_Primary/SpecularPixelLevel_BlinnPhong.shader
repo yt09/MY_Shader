@@ -70,7 +70,7 @@ Shader "Learn/Lighting Model/SpecularPixelLevel_BlinnPhong"
 				//计算世界空间 视角方向 =世界空间摄像机坐标-世界空间顶点坐标 (即 从顶点 指向 摄像机的方向向量)
 				fixed3 viewDir=normalize(UnityWorldSpaceViewDir(i.worldPos));
 
-				//计算世界空间反射光方向 入射光方向是反向的光源方向
+				//计算中间值
 				fixed3 tempDir=normalize(worldLightDir+viewDir);
 
 				//计算高光反射部分光照

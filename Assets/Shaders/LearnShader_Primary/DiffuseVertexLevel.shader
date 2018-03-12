@@ -55,8 +55,7 @@ Shader "Learn/Lighting Model/DiffuseVertexLevel"
 		
 			ENDCG
 		}
-
-
+	
 	}
 	Fallback "Diffuse"
 }

@@ -74,6 +74,7 @@
     <None Include="Assets\Shaders\Billboard_Vertical Single Polygon.shader" />
     <None Include="Assets\Shaders\Dissolve.shader" />
     <None Include="Assets\Shaders\GlassRefraction.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\ForwardRendering.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlend.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlendBothSided.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlendZWrite.shader" />
