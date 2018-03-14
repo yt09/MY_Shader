@@ -63,8 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="MY_Shader.Plugins.csproj">
+      <Project>{E1A192A0-1F86-1EFC-D103-419CD12F9BA8}</Project>
+      <Name>MY_Shader.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\BurnHelper.cs" />
     <Compile Include="Assets\Scripts\FreeCamera.cs" />
+    <Compile Include="Assets\Scripts\Learn Medium\ProceduralTextureGeneration.cs" />
     <Compile Include="Assets\Scripts\ShowGoName.cs" />
     <Compile Include="Assets\Scripts\Vortex.cs" />
   </ItemGroup>
@@ -74,7 +81,14 @@
     <None Include="Assets\Shaders\Billboard_Vertical Single Polygon.shader" />
     <None Include="Assets\Shaders\Dissolve.shader" />
     <None Include="Assets\Shaders\GlassRefraction.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\AlphaBlendWithShadow.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\AlphaTestWithShadow.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\AttenuationAndShadowUseBuildInFunctions.shader" />
     <None Include="Assets\Shaders\LearnShader_Medium\ForwardRendering.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\Fresnel.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\Reflection.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\Refraction.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\Shadow.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlend.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlendBothSided.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlendZWrite.shader" />
@@ -92,6 +106,8 @@
     <None Include="Assets\Shaders\LearnShader_Primary\SpecularPixelLevel.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\SpecularPixelLevel_BlinnPhong.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\SpecularVertexLevel.shader" />
+    <None Include="Assets\Shaders\LearnShader_Standard\BumpedDiffuse.shader" />
+    <None Include="Assets\Shaders\LearnShader_Standard\BumpedSpecular.shader" />
     <None Include="Assets\Shaders\Mirror.shader" />
     <None Include="Assets\Shaders\Projector.shader" />
     <None Include="Assets\Shaders\VortexPixelLevel.shader" />

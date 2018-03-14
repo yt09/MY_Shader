@@ -188,6 +188,6 @@ Shader "Learn Medium/ForwardRendering"
 			ENDCG
 		}
 	}
-
+	//阴影在这里处理
 	Fallback "Specular"
 }

@@ -87,7 +87,7 @@
 		fixed4 texColor = tex2D(_MainTex, i.uv.xy);
 		fixed3 reflCol = texCUBE(_Cubemap, reflDir).rgb * texColor.rgb;
 
-		fixed3 finalColor = reflCol * (1 - _RefractAmount) + refrCol * _RefractAmount;
+		fixed3 finalColor = reflCol * (1 - _RefractAmount) + refrCol * _RefractAmount;//反射颜色和折射颜色
 
 		return fixed4(finalColor, 1);
 	}
