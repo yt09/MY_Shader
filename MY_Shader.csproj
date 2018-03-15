@@ -86,9 +86,13 @@
     <None Include="Assets\Shaders\LearnShader_Medium\AttenuationAndShadowUseBuildInFunctions.shader" />
     <None Include="Assets\Shaders\LearnShader_Medium\ForwardRendering.shader" />
     <None Include="Assets\Shaders\LearnShader_Medium\Fresnel.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\ImageSequenceAnimation.shader" />
     <None Include="Assets\Shaders\LearnShader_Medium\Reflection.shader" />
     <None Include="Assets\Shaders\LearnShader_Medium\Refraction.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\ScrollingBackground.shader" />
     <None Include="Assets\Shaders\LearnShader_Medium\Shadow.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\VertexAnimationWithShadow.shader" />
+    <None Include="Assets\Shaders\LearnShader_Medium\Water.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlend.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlendBothSided.shader" />
     <None Include="Assets\Shaders\LearnShader_Primary\AlphaBlendZWrite.shader" />
