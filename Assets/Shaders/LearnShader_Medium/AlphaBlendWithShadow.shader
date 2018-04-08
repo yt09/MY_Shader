@@ -83,5 +83,5 @@ Shader "Learn Medium/AlphaBlendWithShadow"
 	} 
 	FallBack "Transparent/VertexLit"
 	// Or  force to apply shadow
-//	FallBack "VertexLit"
+	//FallBack "VertexLit"
 }

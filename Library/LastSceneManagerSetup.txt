@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LearnShader_Medium.unity
+- path: Assets/LearnShader_Advanced.unity
   isLoaded: 1
   isActive: 1
