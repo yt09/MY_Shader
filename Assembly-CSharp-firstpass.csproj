@@ -63,6 +63,7 @@
      <None Include="Assets\Shaders\LearnShader_Medium\Shadow.shader" />
      <None Include="Assets\Shaders\LearnShader_Primary\SpecularPixelLevel.shader" />
      <None Include="Assets\Shaders\LearnShader_Medium\AttenuationAndShadowUseBuildInFunctions.shader" />
+     <None Include="Assets\Shaders\LearnShader_Advanced\EdgeDetectionNormalsAndDepth.shader" />
      <None Include="Assets\Shaders\Projector.shader" />
      <None Include="Assets\Shaders\LearnShader_Primary\DiffusePixelLevel_HalfLambert.shader" />
      <None Include="Assets\Shaders\3DText.shader" />
